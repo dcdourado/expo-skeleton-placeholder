@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Animated, View, StyleSheet, Easing, ViewStyle } from "react-native";
-import LinearGradient from "react-native-linear-gradient";
+import { LinearGradient } from "expo-linear-gradient";
 
 const GRADIENT_START = { x: 0, y: 0 };
 const GRADIENT_END = { x: 1, y: 0 };
